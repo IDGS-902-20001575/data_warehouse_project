@@ -1,24 +1,19 @@
-# data_warehouse_project
-Is a Proyect Data WareHouse.
+# Data Warehouse Project - Modelos de ML
 
-# Data Warehouse Project
+## Descripción
+Este proyecto implementa modelos de regresión y clasificación utilizando datos provenientes de un Data Warehouse.
 
-## Description
-This repository contains a simple example of a Data Warehouse preprocessing pipeline.
+## Tecnologías
+- Python
+- Pandas
+- Scikit-learn
 
-## Structure
-- data/raw: Original dataset
-- data/processed: Cleaned dataset
-- src: Data cleaning scripts
+## Modelos utilizados
+- Regresión Lineal
+- Árbol de Decisión
 
-## Steps
-1. Load raw data
-2. Clean data (remove duplicates, fill missing values)
-3. Save processed data
+## Cómo ejecutar
 
-## How to run
+1. Instalar dependencias:
 ```bash
-python src/clean_data.py
-```
-## Author
-Student Project
+pip install -r requirements.txt
